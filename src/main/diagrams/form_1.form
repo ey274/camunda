@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "text": "# Check the payment failed",
+      "type": "text",
+      "layout": {
+        "row": "Row_19ic4nf",
+        "columns": null
+      },
+      "id": "Field_02g82i5"
+    },
+    {
+      "label": "customerId",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1xgbb8n",
+        "columns": null
+      },
+      "id": "Field_1er1abu",
+      "key": "customerId"
+    },
+    {
+      "label": "expiryDate",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0ajide2",
+        "columns": null
+      },
+      "id": "Field_1ngf1vw",
+      "key": "expiryDate"
+    },
+    {
+      "label": "amount",
+      "type": "number",
+      "layout": {
+        "row": "Row_0yssp5h",
+        "columns": null
+      },
+      "id": "Field_1xtpmbl",
+      "key": "amount"
+    },
+    {
+      "label": "customerCredit",
+      "type": "number",
+      "layout": {
+        "row": "Row_1m2ioa7",
+        "columns": null
+      },
+      "id": "Field_04u5rnm",
+      "key": "customerCredit"
+    },
+    {
+      "label": "orderId",
+      "type": "number",
+      "layout": {
+        "row": "Row_0jrmw3a",
+        "columns": null
+      },
+      "id": "Field_01rfra9",
+      "key": "orderId"
+    },
+    {
+      "label": "orderTotal",
+      "type": "number",
+      "layout": {
+        "row": "Row_1nea343",
+        "columns": null
+      },
+      "id": "Field_0cja94j",
+      "key": "orderTotal"
+    },
+    {
+      "label": "cardNumber",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ta64ed",
+        "columns": null
+      },
+      "id": "Field_1ygwfi5",
+      "key": "cardNumber"
+    },
+    {
+      "label": "cvc",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0pghlp9",
+        "columns": null
+      },
+      "id": "Field_1i0w9di",
+      "key": "cvc"
+    },
+    {
+      "label": "Resolved?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0j53bio",
+        "columns": null
+      },
+      "id": "Field_0zce9uj",
+      "key": "errorResolved"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1kgwry3",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.2.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "schemaVersion": 8
+}
